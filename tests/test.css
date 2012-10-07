@@ -1,0 +1,12 @@
+body > div {
+	display: inline-table;
+}
+
+/*#sequencer > * {
+	position: absolute;
+	visibility: hidden;
+}
+
+#sequencer > *[data-active] {
+	visibility: visible;
+}*/

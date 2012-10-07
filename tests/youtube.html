@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Youtube - mediaExtras.js</title>
+		<!--[if IE 8]>
+			<script src="../src/es5-dom-shim.js"></script>
+			<script src="../src/es5-dom-shim.ie8.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="../src/es5-dom-shim.js"></script>
+		<script type="text/javascript" src="../src/swfobject.js"></script>
+		<script type="text/javascript" src="../src/mediaExtras.js"></script>
+		<script type="text/javascript" src="test.js"></script>
+		<style>body > div { display: inline-table; }</style>
+	</head>
+	<body>
+		<div>
+			<p>Natif</p>
+			<video id="native" controls="true" width="176" height="144" preload="none">
+				<source src="medias/10 minutes.mp4" type="video/mp4" />
+				<source src="medias/10 minutes.ogv" type="video/ogg" />
+			</video>
+		</div>
+		<div id="youtube">
+			<p id="youtube">Youtube</p>
+			<video width="176" height="144" preload="none" class="watched">
+				<source src="http://www.youtube.com/watch?v=pHvP71rwYAc" type="video/x-youtube" />
+			</video>
+		</div>
+	</body>
+</html>
